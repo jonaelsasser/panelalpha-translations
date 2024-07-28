@@ -97,7 +97,7 @@
         "loginPage.recoveryCode.title": "Zwei-Faktor-Authentifizierung",
         "loginPage.recoveryCode.alert": "Behandeln Sie den Backup-Code wie ein Passwort. Wir empfehlen Ihnen, ihn mit einem Passwort-Manager zu speichern.",
         "loginPage.recoveryCode.confirmationCheckbox": "Ich bestätige, dass ich den Backup-Code an einem sicheren Ort kopiert und gespeichert habe.",
-        "loginPage.login.title": "Willkommen zurück",
+        "loginPage.login.title": "Willkommen",
         "acceptInvitePage.error.title": "Invalid Invitation",
         "acceptInvitePage.error.info": "Your link is invalid or invitation may no longer exist if already accepted, expired or cancelled.",
         "acceptInvitePage.password.title": "Set Your Password",
