@@ -60,264 +60,264 @@ use App\Notifications\User\System\NewDeviceLogin;
 
 return [
     ForceUpdatePluginFailed::class => [
-        "name" => "Update Plugin erzwingen fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, ein Update-Plugin in der Instanz zu erzwingen, fehlgeschlagen ist. Die Benachrichtigung kann Details über das Plugin und die zugehörige Instanz sowie weitere Schritte beinhalten."
+        "name" => "Force Update Plugin Failed",
+        "description" => "The notification is informing the recipient that an attempt to force an update plugin in the instance has failed. The notification may include details on the plugin and the related instance and any further steps that should be taken."
     ],
     ForceUpdatePluginFinished::class => [
-        "name" => "Update Plugin erzwingen beendet",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass der Versuch, ein Update-Plugin in der Instanz zu erzwingen, erfolgreich beendet wurde. Die Benachrichtigung kann Details über das Plugin und die zugehörige Instanz sowie weitere Schritte beinhalten."
+        "name" => "Force Update Plugin Finished",
+        "description" => "The notification is informing the recipient that an attempt to force an update plugin in the instance has been successfully finished. The notification may include details on the plugin and the related instance and any further steps that should be taken."
     ],
     ForceUpdateThemeFailed::class => [
-        "name" => "Update erzwingen fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, ein Update-Theme in der Instanz zu erzwingen, fehlgeschlagen ist. Die Benachrichtigung kann Details über das Thema und die zugehörige Instanz sowie weitere Schritte beinhalten."
+        "name" => "Force Update Theme Failed",
+        "description" => "The notification is informing the recipient that an attempt to force an update theme in the instance has failed. The notification may include details on the theme and the related instance and any further steps that should be taken."
     ],
     ForceUpdateThemeFinished::class => [
-        "name" => "Update Thema erzwingen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass der Versuch, ein Update-Theme in der Instanz zu erzwingen, erfolgreich abgeschlossen wurde. Die Benachrichtigung kann Details über das Thema und die zugehörige Instanz sowie weitere Schritte beinhalten."
+        "name" => "Force Update Theme Finished",
+        "description" => "The notification is informing the recipient that an attempt to force an update theme in the instance has been successfully finished. The notification may include details on the theme and the related instance and any further steps that should be taken."
     ],
     InstallPackageFailed::class => [
-        "name" => "Installationspaket fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, Plugins und Themes aus Paketen zu installieren und zu aktivieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten über die betreffende Instanz und alle weiteren Schritte enthalten, die unternommen werden sollten."
+        "name" => "Install Package Failed",
+        "description" => "The notification is informing the recipient that an attempt to install and activate plugins and themes from packages assigned in instance has failed. The notification may include details on the related instance and any further steps that should be taken."
     ],
     InstallPackageFinished::class => [
-        "name" => "Installationspaket abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass der Versuch, Plugins und Themes aus Instanzpaketen zu installieren und zu aktivieren, erfolgreich beendet wurde. Die Benachrichtigung kann Einzelheiten über die betreffende Instanz und alle weiteren Schritte enthalten, die unternommen werden sollten."
+        "name" => "Install Package Finished",
+        "description" => "The notification is informing the recipient that an attempt to install and activate plugins and themes from packages in instance has been successfully finished. The notification may include details on the related instance and any further steps that should be taken."
     ],
     InstanceInstallationByUserFinished::class => [
-        "name" => "Instanz-Installation nach Benutzer beendet",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die Installation einer neuen WordPress-Instanz durch den Benutzer beendet ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, wer die Instanz erstellt hat, den Ort der Instanz und alle weiteren Schritte, die durchgeführt werden sollten."
+        "name" => "Instance Installation By User Finished",
+        "description" => "The notification is informing the recipient that a new WordPress instance installation by user finished. The notification may include details on who created the instance, the location of the instance and any further steps that should be taken."
     ],
     InstanceInstallationByUserFailed::class => [
-        "name" => "Instanz-Installation nach Benutzer fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die Installation einer neuen WordPress-Instanz durch den Benutzer fehlgeschlagen ist. Die Benachrichtigung kann Details darüber enthalten, wer die Instanz erstellt hat, den Ort der Instanz Informationen über Fehler und alle weiteren Schritte, die unternommen werden sollten."
+        "name" => "Instance Installation By User Failed",
+        "description" => "The notification is informing the recipient that a new WordPress instance installation by user failed. The notification may include details on who created the instance, the location of the instance, information about errors and any further steps that should be taken."
     ],
     InstanceDeletedByUser::class => [
-        "name" => "Instanz gelöscht von Benutzer",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass eine WordPress-Instanz von einem Benutzer gelöscht wurde. Die Benachrichtigung kann Details darüber enthalten, wer die Instanz, den Instanznamen und alle weiteren Schritte gelöscht hat."
+        "name" => "Instance Deleted By User",
+        "description" => "The notification is informing the recipient that a WordPress instance has been deleted by a user. The notification may include details on who deleted the instance, the instance name, and any further steps that should be taken."
     ],
     ResetPassword::class => [
-        "name" => "Passwort zurücksetzen",
-        "description" => "Eine Passwort-Rücksetzungs-E-Mail ist eine automatisierte Nachricht an die E-Mail-Adresse eines Benutzers, wenn er das Passwort für ein Konto zurücksetzen möchte. Die E-Mail enthält in der Regel einen Link oder eine Anleitung zum Zurücksetzen des Passworts sowie ein Zeitlimit für die Gültigkeit."
+        "name" => "Reset Password",
+        "description" => "A reset password email is an automated message sent to a user's email address when they request to reset their password for an account. The email typically contains a link or instructions for resetting the password, as well as a time limit for the link's validity."
     ],
     PluginUpdateAvailable::class => [
-        "name" => "Plugin-Update verfügbar",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein neues Update für ein Plugin, das sie verwenden, auf ihrer WordPress-Website verfügbar ist. Das Update enthält Fehlerkorrekturen und neue Funktionen, die die Performance und Funktionalität des Plugins insgesamt verbessern."
+        "name" => "Plugin Update Available",
+        "description" => "Notification is informing the recipient that a new update for a plugin they are using on their WordPress website is now available. The update includes bug fixes and new features that will improve the overall performance and functionality of the plugin."
     ],
     ThemeUpdateAvailable::class => [
-        "name" => "Theme Update verfügbar",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein neues Update für ein Thema, das sie verwenden, auf seiner WordPress-Website verfügbar ist. Das Update enthält Fehlerkorrekturen und neue Funktionen, die die Gesamtleistung und Funktionalität des Themes verbessern."
+        "name" => "Theme Update Available",
+        "description" => "Notification is informing the recipient that a new update for a theme they are using on their WordPress website is now available. The update includes bug fixes and new features that will improve the overall performance and functionality of the theme."
     ],
     WordpressUpdateAvailable::class => [
-        "name" => "WordPress-Update verfügbar",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein neues Update für ihre WordPress-Website verfügbar ist. Das Update enthält wichtige Sicherheitskorrekturen und neue Features, die die Gesamtleistung und Funktionalität der Website verbessern."
+        "name" => "WordPress Update Available",
+        "description" => "Notification is informing the recipient that a new update for their WordPress website is now available. The update includes important security fixes and new features that will improve the overall performance and functionality of the website."
     ],
     QueueTaskFailed::class => [
-        "name" => "Warteschlange fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die Aufgabe in der Warteschlange fehlgeschlagen ist. Die Benachrichtigung kann Details der Aufgabe, der zugehörigen Instanz und des Fehlers enthalten."
+        "name" => "Queue Task Failed",
+        "description" => "The notification is informing the recipient that the task in the queue has failed. The notification may include details of the task, related instance and the error."
     ],
     QueueTaskSucceeded::class => [
-        "name" => "Warteschlange erfolgreich",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die Aufgabe in der Warteschlange erfolgreich war. Die Benachrichtigung kann Details der Aufgabe und der zugehörigen Instanz enthalten."
+        "name" => "Queue Task Succeeded",
+        "description" => "The notification is informing the recipient that the task in the queue has succeeded. The notification may include details of the task and related instance."
     ],
     ServiceSuspended::class => [
-        "name" => "Dienst unterbrochen",
-        "description" => "In der Mitteilung wird der Empfänger darüber informiert, dass sein Dienst ausgesetzt wurde. Die Benachrichtigung kann Informationen über die gesperrte Domain und einen Link zur Wiederherstellung des Dienstes enthalten."
+        "name" => "Service Suspended",
+        "description" => "The notification is informing the recipient that their service has been suspended. The notification may include information about the suspended domain and a link to restore the service."
     ],
     ServiceUnsuspended::class => [
-        "name" => "Dienst nicht gesperrt",
-        "description" => "In der Mitteilung wird der Empfänger darüber informiert, dass sein Dienst aufgehoben wurde. Die Benachrichtigung kann Informationen über die nicht unterbrochene Domäne und weitere Schritte beinhalten."
+        "name" => "Service Unsuspended",
+        "description" => "The notification is informing the recipient that their service has been unsuspended. The notification may include information about the unsuspended domain and any further steps that should be taken."
     ],
     DnsZoneExists::class => [
-        "name" => "DNS-Zone existiert",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass der DNS-Zonenerstellungsversuch fehlgeschlagen ist, weil die DNS-Zone bereits existiert. Die Benachrichtigung kann Details über die vorhandene DNS-Zone, den betroffenen Dienst und den betreffenden DNS-Server enthalten."
+        "name" => "DNS Zone Exists",
+        "description" => "The notification is informing the recipient that the DNS zone creation attempt has failed because the DNS zone already exists. The notification may include details about the existing DNS zone, the affected service, and the DNS server involved."
     ],
     DnsZoneCreateFailed::class => [
-        "name" => "DNS-Zonenerstellung fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass der DNS-Zonenerstellungsversuch fehlgeschlagen ist. Die Nachricht kann Informationen über die versuchte DNS-Zone, den verwendeten Dienst und den Server, auf dem die Erstellung fehlgeschlagen ist, liefern."
+        "name" => "DNS Zone Create Failed",
+        "description" => "The notification is informing the recipient that the DNS zone creation attempt has failed. The message may provide information on the attempted DNS zone, the service in use, and the server on which the creation failed."
     ],
     ServiceUpgraded::class => [
-        "name" => "Service aktualisiert",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass sein Dienst aktualisiert wurde. Die Benachrichtigung kann Informationen über die aktualisierte Domain und alle weiteren Schritte enthalten, die unternommen werden sollten."
+        "name" => "Service Upgraded",
+        "description" => "The notification is informing the recipient that their service has been upgraded. The notification may include information about the upgraded domain and any further steps that should be taken."
     ],
     CreateFailed::class => [
-        "name" => "Backup erstellen fehlgeschlagen",
+        "name" => "Backup Create Failed",
         "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Backup seiner Website oder seines Systems nicht erstellt wurde. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Sicherung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
     ],
     CreateFinished::class => [
-        "name" => "Backup erstellen abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Backup seiner Website oder seines Systems erfolgreich erstellt wurde. Die Benachrichtigung kann Details darüber enthalten, wo das Backup gespeichert wird und wie man darauf zugreift."
+        "name" => "Backup Create Finished",
+        "description" => "The notification is informing the recipient that a backup of their website or system has been successfully created. The notification may include details on where the backup is saved and how to access it."
     ],
     DeleteFailed::class => [
-        "name" => "Löschen fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Backup seiner Website nicht gelöscht werden konnte. Die Mitteilung kann Einzelheiten darüber enthalten, warum die Löschung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Backup Delete Failed",
+        "description" => "The notification is informing the recipient that a backup of their website failed to be deleted. The notification may include details on why the deletion failed and what steps should be taken to resolve the issue."
     ],
     DeleteFinished::class => [
         "name" => "Löschen der Sicherung abgeschlossen",
         "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Backup seiner Website erfolgreich gelöscht wurde. Die Benachrichtigung kann Details enthalten, über die Sicherungskopien gelöscht wurden, und alle weiteren Schritte, die unternommen werden sollen."
     ],
     RestoreFailed::class => [
-        "name" => "Backup-Wiederherstellung fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, ein Backup seiner Website wiederherzustellen, fehlgeschlagen ist. Die Mitteilung kann Einzelheiten darüber enthalten, warum die Wiederherstellung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Backup Restore Failed",
+        "description" => "The notification is informing the recipient that an attempt to restore a backup of their website has failed. The notification may include details on why the restore failed and what steps should be taken to resolve the issue."
     ],
     RestoreFinished::class => [
-        "name" => "Backup-Wiederherstellung abgeschlossen",
+        "name" => "Backup Restore Finished",
         "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Backup seiner Website erfolgreich wiederhergestellt wurde. Die Benachrichtigung kann Details enthalten, über die Sicherungskopien wiederhergestellt wurden und weitere Schritte unternommen werden sollten."
     ],
     AutomaticCreateFailed::class => [
-        "name" => "Automatisches Backup fehlgeschlagen",
+        "name" => "Automatic Create Backup Failed",
         "description" => "Die Benachrichtigung informiert den Empfänger, dass ein automatisches Backup seiner Website oder seines Systems nicht erstellt werden konnte. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Sicherung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
     ],
     AutomaticCreateFinished::class => [
         "name" => "Automatische Sicherung erstellen abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein automatisches Backup seiner Website oder seines Systems erfolgreich erstellt wurde. Die Benachrichtigung kann Details darüber enthalten, wo das Backup gespeichert wird und wie man darauf zugreift."
+        "description" => "The notification is informing the recipient that an automatic backup of their website or system has been successfully created. The notification may include details on where the backup is saved and how to access it."
     ],
     InstallFailed::class => [
-        "name" => "Plugin-Installation fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, ein Plugin für seine WordPress-Website zu installieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Installation fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Plugin Installation Failed",
+        "description" => "The notification is informing the recipient that an attempt to install a plugin for their WordPress website has failed. The notification may include details on why the installation failed and what steps should be taken to resolve the issue."
     ],
     InstallFinished::class => [
-        "name" => "Plugin-Installation abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Plugin für seine WordPress-Website erfolgreich installiert wurde. Die Benachrichtigung kann Details über das installierte Plugin und weitere Schritte beinhalten."
+        "name" => "Plugin Installation Completed",
+        "description" => "The notification is informing the recipient that a plugin for their WordPress website has been successfully installed. The notification may include details on which plugin was installed and any further steps that should be taken."
     ],
     UpdateFailed::class => [
-        "name" => "Plugin Update fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, ein Plugin für ihre WordPress-Website zu aktualisieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Aktualisierung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Plugin Update Failed",
+        "description" => "The notification is informing the recipient that an attempt to update a plugin for their WordPress website has failed. The notification may include details on why the update failed and what steps should be taken to resolve the issue."
     ],
     UpdateFinished::class => [
-        "name" => "Plugin-Installation abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Plugin für seine WordPress-Website erfolgreich aktualisiert wurde. Die Benachrichtigung kann Details darüber enthalten, welches Plugin aktualisiert wurde, und alle weiteren Schritte, die unternommen werden sollten."
+        "name" => "Plugin Installation Completed",
+        "description" => "The notification is informing the recipient that a plugin for their WordPress website has been successfully updated. The notification may include details on which plugin was updated and any further steps that should be taken."
     ],
     \App\Notifications\User\Theme\InstallFailed::class => [
-        "name" => "Theme-Installation fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, ein Theme für seine WordPress-Website zu installieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Installation fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Theme Installation Failed",
+        "description" => "The notification is informing the recipient that an attempt to install a theme for their WordPress website has failed. The notification may include details on why the installation failed and what steps should be taken to resolve the issue."
     ],
     \App\Notifications\User\Theme\InstallFinished::class => [
-        "name" => "Theme-Installation abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Theme für seine WordPress-Website erfolgreich installiert wurde. Die Benachrichtigung kann Details enthalten, auf denen das Theme installiert wurde und weitere Schritte unternommen werden sollten."
+        "name" => "Theme Installation Completed",
+        "description" => "The notification is informing the recipient that a theme for their WordPress website has been successfully installed. The notification may include details on which theme was installed and any further steps that should be taken."
     ],
     \App\Notifications\User\Theme\UpdateFailed::class => [
-        "name" => "Theme-Update fehlgeschlagen",
-        "description" => "Die Benachrichtigung teilt dem Empfänger mit, dass ein Versuch, ein Theme für seine WordPress-Website zu aktualisieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Aktualisierung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Theme Update Failed",
+        "description" => "The notification is informing the recipient that an attempt to update a theme for their WordPress website has failed. The notification may include details on why the update failed and what steps should be taken to resolve the issue."
     ],
     \App\Notifications\User\Theme\UpdateFinished::class => [
-        "name" => "Theme-Update abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Theme für seine WordPress-Website erfolgreich aktualisiert wurde. Die Benachrichtigung kann Details enthalten, zu welchem Thema aktualisiert wurde und weitere Schritte unternommen werden sollten."
+        "name" => "Theme Update Completed",
+        "description" => "The notification is informing the recipient that a theme for their WordPress website has been successfully updated. The notification may include details on which theme was updated and any further steps that should be taken."
     ],
     CreateStagingFailed::class => [
-        "name" => "Staging erstellen fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, eine Staging-Instanz ihrer Website zu erstellen, fehlgeschlagen ist. Die Mitteilung kann Einzelheiten darüber enthalten, warum die Erstellung gescheitert ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Create Staging Failed",
+        "description" => "The notification is informing the recipient that an attempt to create a staging instance of their website has failed. The notification may include details on why the creation failed and what steps should be taken to resolve the issue."
     ],
     CreateStagingFinished::class => [
-        "name" => "Staging erstellen abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass eine Staging-Instanz ihrer Website erfolgreich erstellt wurde. Die Benachrichtigung kann Details über den Zugriff auf die Staging-Instanz und weitere Schritte beinhalten."
+        "name" => "Create Staging Finished",
+        "description" => "The notification is informing the recipient that a staging instance of their website has been successfully created. The notification may include details on where the staging instance can be accessed and any further steps that should be taken."
     ],
     InstanceInstallationFailed::class => [
-        "name" => "Instanz-Installation fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, eine WordPress-Instanz zu installieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Installation fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Instance Installation Failed",
+        "description" => "The notification is informing the recipient that an attempt to install a WordPress instance has failed. The notification may include details on why the installation failed and what steps should be taken to resolve the issue."
     ],
     InstanceInstallationFinished::class => [
-        "name" => "Instanz-Installation abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass eine WordPress-Instanz erfolgreich installiert wurde. Die Benachrichtigung kann Details über den Zugriff auf die Instanz und weitere Schritte beinhalten."
+        "name" => "Instance Installation Finished",
+        "description" => "The notification is informing the recipient that a WordPress instance has been successfully installed. The notification may include details on where the instance can be accessed and any further steps that should be taken."
     ],
     ImportFailed::class => [
-        "name" => "Import fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, eine WordPress-Instanz zu importieren, fehlgeschlagen ist. Die Mitteilung kann Einzelheiten darüber enthalten, warum der Import fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "Instance Import Failed",
+        "description" => "The notification is informing the recipient that an attempt to import a WordPress instance has failed. The notification may include details on why the import failed and what steps should be taken to resolve the issue."
     ],
     ImportFinished::class => [
-        "name" => "Instanz Import abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass eine WordPress-Instanz erfolgreich importiert wurde. Die Benachrichtigung kann Details über den Zugriff auf die Instanz und weitere Schritte beinhalten."
+        "name" => "Instance Import Finished",
+        "description" => "The notification is informing the recipient that a WordPress instance has been successfully imported. The notification may include details on where the instance can be accessed and any further steps that should be taken."
     ],
     InstanceInvitationReceived::class => [
-        "name" => "Einladung der Instanz erhalten",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass er eine Einladung zur Verwaltung einer bestimmten Instanz erhalten hat. Die Benachrichtigung kann Details darüber enthalten, wer die Einladung gesendet hat, die zu verwaltende Instanz und die Aktionen, die auf der Instanz ausgeführt werden können."
+        "name" => "Instance Invitation Received",
+        "description" => "The notification is informing the recipient that they have received an invitation to manage a specific instance. The notification may include details on who sent the invitation, the instance being managed and the actions that can be performed on the instance."
     ],
     NewDeviceLogin::class => [
-        "name" => "Anmelden von neuem Gerät",
-        "description" => "Benachrichtigung ist eine Warnung, die generiert wird, wenn sich ein neues Gerät oder ein neuer Browser oder eine neue IP-Adresse, auf der Website anmelden. Die Benachrichtigung enthält in der Regel Informationen über das Gerät, wie seine IP-Adresse und Datum und Uhrzeit der Verbindung."
+        "name" => "Login from New Device",
+        "description" => "Notification is an alert that is generated when a new device or new browser or new ip address, sign in to the website. The notification typically includes information about the device, such as its IP address, and the date and time of the connection."
     ],
     PushToLiveFailed::class => [
-        "name" => "Push to Live fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, die an der Staging-Instanz vorgenommenen Änderungen auf die Live-Version der Website zu schieben, fehlgeschlagen ist. Die Mitteilung kann Einzelheiten darüber enthalten, warum das Push-Verfahren gescheitert ist und welche Schritte unternommen werden sollten, um das Problem zu lösen."
+        "name" => "Push To Live Failed",
+        "description" => "The notification is informing the recipient that an attempt to push the changes made on the staging instance to the live version of the website has failed. The notification may include details on why the push failed and what steps should be taken to resolve the issue."
     ],
     PushToLiveFinished::class => [
-        "name" => "Push to Live abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die an der Staging-Instanz vorgenommenen Änderungen erfolgreich in die Live-Version der Website oder des Systems verschoben wurden. Die Mitteilung kann Einzelheiten darüber enthalten, welche Änderungen vorgenommen wurden und welche weiteren Schritte unternommen werden sollten."
+        "name" => "Push To Live Completed",
+        "description" => "The notification is informing the recipient that the changes made on the staging instance have been successfully pushed to the live version of the website or system. The notification may include details on what changes were made and any further steps that should be taken."
     ],
     UpdateWordpressFailed::class => [
-        "name" => "WordPress-Update fehlgeschlagen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein Versuch, die WordPress-Instanz zu aktualisieren, fehlgeschlagen ist. Die Benachrichtigung kann Einzelheiten darüber enthalten, warum die Aktualisierung fehlgeschlagen ist und welche Schritte zur Lösung des Problems unternommen werden sollten."
+        "name" => "WordPress Update Failed",
+        "description" => "The notification is informing the recipient that an attempt to update the WordPress instance has failed. The notification may include details on why the update failed and what steps should be taken to resolve the issue."
     ],
     UpdateWordpressFinished::class => [
-        "name" => "WordPress-Update abgeschlossen",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die WordPress-Instanz erfolgreich aktualisiert wurde. Die Benachrichtigung kann Einzelheiten darüber enthalten, welche Änderungen an der Instanz vorgenommen wurden und welche weiteren Schritte unternommen werden sollten."
+        "name" => "WordPress Update Completed",
+        "description" => "The notification is informing the recipient that the WordPress instance has been successfully updated. The notification may include details on what changes were made to the instance and any further steps that should be taken."
     ],
     \App\Notifications\User\System\ResetPassword::class => [
-        "name" => "Passwort zurücksetzen",
-        "description" => "Eine Passwort-Rücksetzungs-E-Mail ist eine automatisierte Nachricht an die E-Mail-Adresse eines Benutzers, wenn er das Passwort für ein Konto zurücksetzen möchte. Die E-Mail enthält in der Regel einen Link oder eine Anleitung zum Zurücksetzen des Passworts sowie ein Zeitlimit für die Gültigkeit."
+        "name" => "Reset Password",
+        "description" => "A reset password email is an automated message sent to a user's email address when they request to reset their password for an account. The email typically contains a link or instructions for resetting the password, as well as a time limit for the link's validity."
     ],
     \App\Notifications\User\Updates\PluginUpdateAvailable::class => [
-        "name" => "Plugin-Update verfügbar",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein neues Update für ein Plugin, das sie verwenden, auf ihrer WordPress-Website verfügbar ist. Das Update enthält Fehlerkorrekturen und neue Funktionen, die die Performance und Funktionalität des Plugins insgesamt verbessern."
+        "name" => "Plugin Update Available",
+        "description" => "Notification is informing the recipient that a new update for a plugin they are using on their WordPress website is now available. The update includes bug fixes and new features that will improve the overall performance and functionality of the plugin."
     ],
     \App\Notifications\User\Updates\ThemeUpdateAvailable::class => [
-        "name" => "Theme Update verfügbar",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein neues Update für ein Thema, das sie verwenden, auf seiner WordPress-Website verfügbar ist. Das Update enthält Fehlerkorrekturen und neue Funktionen, die die Gesamtleistung und Funktionalität des Themes verbessern."
+        "name" => "Theme Update Available",
+        "description" => "Notification is informing the recipient that a new update for a theme they are using on their WordPress website is now available. The update includes bug fixes and new features that will improve the overall performance and functionality of the theme."
     ],
     \App\Notifications\User\Updates\WordpressUpdateAvailable::class => [
-        "name" => "WordPress-Update verfügbar",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass ein neues Update für ihre WordPress-Website verfügbar ist. Das Update enthält wichtige Sicherheitskorrekturen und neue Features, die die Gesamtleistung und Funktionalität der Website verbessern."
+        "name" => "WordPress Update Available",
+        "description" => "Notification is informing the recipient that a new update for their WordPress website is now available. The update includes important security fixes and new features that will improve the overall performance and functionality of the website."
     ],
     DnsPropagationExceeded::class => [
-        "name" => "DNS-Ausbreitung für SSL-Bestellung überschritten",
-        "description" => "Die Benachrichtigung informiert den Empfänger, dass die zugewiesene Zeit für die DNS-Weitergabe im Verhältnis zu ihrer SSL-Zertifikatsbestellung überschritten wurde."
+        "name" => "DNS Propagation Exceeded For SSL Order",
+        "description" => "Notification is informing the recipient that the allotted time for DNS propagation has been exceeded in relation to their SSL certificate order."
     ],
     CreateADnsRecordFailed::class => [
-        "name" => "Erstellung eines DNS-Datensatzes fehlgeschlagen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass die Erstellung des DNS-Datensatzes A fehlgeschlagen ist.'
+        "name" => "Creation A DNS Record Failed",
+        "description" => 'Notification is informing the recipient that the creation of DNS record A has failed.'
     ],
     InstanceTemplateCreateFailed::class => [
-        "name" => "Erstellen der Instanzvorlage fehlgeschlagen",
-        "description" => 'Benachrichtigung informiert den Empfänger, dass die Instanzvorlage nicht erstellt wurde.'
+        "name" => "Instance Template Create Failed",
+        "description" => 'Notification is informing the recipient that the instance template is not created.'
     ],
     InstanceTemplateCreateFinished::class => [
-        "name" => "Instanzvorlagenerstellung beendet",
-        "description" => 'Benachrichtigung informiert den Empfänger, dass die Instanzvorlage erfolgreich erstellt wurde.'
+        "name" => "Instance Template Create Finished",
+        "description" => 'Notification is informing the recipient that the instance template has been successfully created.'
     ],
     EmailDomainCreateFailed::class => [
-        "name" => "Erstellen der E-Mail-Domain fehlgeschlagen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass die Erstellung der E-Mail-Domäne fehlgeschlagen ist.'
+        "name" => "Creation Email Domain Failed",
+        "description" => 'Notification is informing the recipient that the creation of email domain has failed.'
     ],
     EmailDomainExists::class => [
-        "name" => "E-Mail-Domain existiert",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass die E-Mail-Domäne bereits auf dem E-Mail-Server existiert.'
+        "name" => "Email Domain Exists",
+        "description" => 'Notification is informing the recipient that email domain already exists on the email server.'
     ],
     SyncReportProvidersFailed::class => [
-        "name" => "Sync-Berichtsanbieter fehlgeschlagen",
-        "description" => 'Eine Benachrichtigung informiert den Empfänger, dass die Synchronisierung von Berichtanbietern fehlgeschlagen ist. Die Benachrichtigung kann Informationen über die Instanz und die Fehlermeldung enthalten.'
+        "name" => "Sync Report Providers Failed",
+        "description" => 'A notification informs the recipient that the synchronisation of report providers has failed. The notification may contain information about the instance and the error message.'
     ],
     SyncReportProvidersFinished::class => [
-        "name" => "Sync-Berichtsanbieter abgeschlossen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass die Synchronisierung von Berichtsanbietern abgeschlossen ist. Die Benachrichtigung kann Instanzinformationen enthalten.'
+        "name" => "Sync Report Providers Completed",
+        "description" => 'The notification informs the recipient that the synchronisation of report providers has been completed The notification may contain instance information.'
     ],
     DnsRecordsCreateFailed::class => [
-        "name" => "Erstellung von DNS-Datensätzen fehlgeschlagen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass die aufgelisteten DNS-Datensätze nicht für die Zone erstellt wurden. Die Benachrichtigung kann Informationen über DNS-Datensätze oder DNS-Zone enthalten.'
+        "name" => "Creation DNS Records Failed",
+        "description" => 'The notification informs the recipient that the listed dns records have not been created for the zone. The notification may contain information about dns records or dns zone.'
     ],
     ImportByUserFailed::class => [
-        "name" => "Instanz-Import nach Benutzer fehlgeschlagen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass der Import der Instanz durch den Benutzer fehlgeschlagen ist.'
+        "name" => "Instance Import By User Failed",
+        "description" => 'Notification is informing the recipient that the instance import by user has failed.'
     ],
     ImportByUserFinished::class => [
-        "name" => "Instanz-Import nach Benutzer beendet",
-        "description" => 'Benachrichtigung teilt dem Empfänger mit, dass der Import der Instanz durch den Benutzer erfolgreich war.'
+        "name" => "Instance Import By User Finished",
+        "description" => 'Notification is informing the recipient that the instance import by user has been successful.'
     ],
     ManualImportInstanceFailed::class => [
-        "name" => "Manuelle Import-Instanz fehlgeschlagen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass der manuelle Import durch Admin fehlgeschlagen ist.'
+        "name" => "Manual Import Instance Failed",
+        "description" => 'Notification is informing the recipient that the instance manual import by admin has failed.'
     ],
     ManualImportInstanceFinished::class => [
-        "name" => "Manuelle Import-Instanz abgeschlossen",
-        "description" => 'Die Benachrichtigung informiert den Empfänger, dass der manuelle Import durch Admin erfolgreich war.'
+        "name" => "Manual Import Instance Finished",
+        "description" => 'Notification is informing the recipient that the instance manual import by admin has successful.'
     ]
 ];
 
