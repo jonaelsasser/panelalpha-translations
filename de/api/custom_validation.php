@@ -2,8 +2,8 @@
 
 return [
     "backup_already_created" => 'Backup bereits erstellt',
-    'cannot_delete_account' => 'Cannot delete account. Account currently in use.',
-    'cannot_delete_backup' => 'Cannot delete backup in progress',
+    'cannot_delete_account' => 'Konto kann derzeit nicht gelöscht werden.',
+    'cannot_delete_backup' => 'Sicherung kann nicht gelöscht werden',
     'cannot_compare_database_changes' => 'Datenbankänderungen können nicht verglichen werden.',
     'cannot_connect_to_url' => 'Keine Verbindung zur URL.',
     'cannot_connect_to_ftp' => 'Verbindung zum FTP-Server nicht möglich',
