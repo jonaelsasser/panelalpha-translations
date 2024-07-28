@@ -1,9 +1,9 @@
 <?php
 
 return [
-    "backup_already_created" => 'Sicherung bereits erstellt',
-    'cannot_delete_account' => 'Konto kann derzeit nicht gelöscht werden.',
-    'cannot_delete_backup' => 'Sicherung kann nicht gelöscht werden',
+    "backup_already_created" => 'Backup bereits erstellt',
+    'cannot_delete_account' => 'Cannot delete account. Account currently in use.',
+    'cannot_delete_backup' => 'Cannot delete backup in progress',
     'cannot_compare_database_changes' => 'Datenbankänderungen können nicht verglichen werden.',
     'cannot_connect_to_url' => 'Keine Verbindung zur URL.',
     'cannot_connect_to_ftp' => 'Verbindung zum FTP-Server nicht möglich',
@@ -33,7 +33,7 @@ return [
     "instance_not_staging" => "Die Instanz stagniert.",
     'required_parent_domain' => 'Eltern-Domain erforderlich',
     'required_value' => 'Erforderlicher Wert',
-    'staging_cannot_shared_directly' => 'Staging-Instanzen können nicht direkt auf freigegeben werden',
+    'staging_cannot_shared_directly' => 'Staging instances can\'t have access shared directly',
     "sort_possible_values" => "Mögliche Werte sind: asc,desc",
     'sso_generate_token_limit' => 'Sie können SSO-Token einmal alle 5 Sekunden generieren.',
     'wordpress_not_found' => 'Wordpress nicht im Pfad :path gefunden',
