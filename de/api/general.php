@@ -11,11 +11,11 @@ return [
         "uploading-database" => "Datenbank wird hochgeladen",
         'extracting-files'  => 'Dateien werden extrahiert',
         'extracting-database' => 'Datenbank wird extrahiert',
-        'importing-database' => 'Importiere Datenbank',
-        "configuring-wordpress" => "WordPress konfigurieren",
-        "cleaning-files" => "Dateien werden gereinigt",
-        "removing-ftp-account" => "FTP-Konto wird entfernt",
-        "creating-ftp-account" => "FTP-Konto erstellen",
-        "creating-temporary-directory" => "Temporäres Verzeichnis erstellen",
+        'importing-database' => 'Importing database',
+        "configuring-wordpress" => "Configuring WordPress",
+        "cleaning-files" => "Cleaning files",
+        "removing-ftp-account" => "Removing FTP account",
+        "creating-ftp-account" => "Creating FTP account",
+        "creating-temporary-directory" => "Creating temporary directory",
     ]
 ];
