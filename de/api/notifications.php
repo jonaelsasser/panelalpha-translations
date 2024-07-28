@@ -96,7 +96,7 @@ return [
         "description" => "The notification is informing the recipient that a WordPress instance has been deleted by a user. The notification may include details on who deleted the instance, the instance name, and any further steps that should be taken."
     ],
     ResetPassword::class => [
-        "name" => "Reset Password",
+        "name" => "Passwort zurücksetzen",
         "description" => "A reset password email is an automated message sent to a user's email address when they request to reset their password for an account. The email typically contains a link or instructions for resetting the password, as well as a time limit for the link's validity."
     ],
     PluginUpdateAvailable::class => [
