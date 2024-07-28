@@ -39,8 +39,8 @@ return [
                 "placeholder" => "Account will be generated after saving changes"
             ],
             "contact-email" => [
-                "label" => "Contact Email",
-                "placeholder" => "Enter your email..."
+                "label" => "Kontakt E-Mail",
+                "placeholder" => "E-Mail eingeben..."
             ],
             "tos-accepted" => [
                 "label" => "Accept Terms Of Service"
