@@ -57,7 +57,7 @@ return [
     'ssl_no_order_model' => 'SSL order model not set',
     'ssl_certificate_not_ready' => 'Certificate is not ready',
     'ssl_cannot_fetch_certificate' => 'Cannot fetch certificate',
-    'required_accept_licensing_terms' => 'Accepting licensing terms required.',
+    'required_accept_licensing_terms' => 'Akzeptieren von Lizenzbedingungen erforderlich.',
     'invalid_url' => 'The URL is invalid.',
     'cannot_connect_to_url' => 'Could not connect to the URL.',
     'invalid_response' => 'Something goes wrong. Please try again later.',
